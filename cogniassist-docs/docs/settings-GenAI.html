@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>GenAI · Cogniassist Help Center</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="generator" content="Docusaurus"/><meta name="description" content="GenAI stands for Generative Artificial Intelligence. It&#x27;s a subfield of AI focused on creating new data (text, code, images, etc.) that resembles human-generated content.Large Language Models (LLMs)"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="GenAI · Cogniassist Help Center"/><meta property="og:type" content="website"/><meta property="og:url" content="https://cogniwide.github.io/cogniassist-docs/"/><meta property="og:description" content="GenAI stands for Generative Artificial Intelligence. It&#x27;s a subfield of AI focused on creating new data (text, code, images, etc.) that resembles human-generated content.Large Language Models (LLMs)"/><meta property="og:image" content="https://cogniwide.github.io/cogniassist-docs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://cogniwide.github.io/cogniassist-docs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/cogniassist-docs/img/fav-icon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://cogniwide.github.io/cogniassist-docs/blog/atom.xml" title="Cogniassist Help Center Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://cogniwide.github.io/cogniassist-docs/blog/feed.xml" title="Cogniassist Help Center Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/cogniassist-docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/cogniassist-docs/css/main.css"/><script src="/cogniassist-docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/cogniassist-docs/"><img class="logo" src="/cogniassist-docs/img/fav-icon.png" alt="Cogniassist Help Center"/><h2 class="headerTitleWithLogo">Cogniassist Help Center</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/cogniassist-docs/docs/login" target="_self">Docs</a></li><li class=""><a href="/cogniassist-docs/help" target="_self">Help</a></li><li class=""><a href="/cogniassist-docs/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Settings</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/analytics">Analytics</a></li><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/login">Login</a></li><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/projects">Projects</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Knowledge Base</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/knowledge-base">Knowledge Base</a></li><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/faq">FAQ</a></li><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/GenAI">GenAI</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Workflows</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/workflow">Workflow</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Settings</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/settings-General">General</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/cogniassist-docs/docs/settings-GenAI">GenAI</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Deploy</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/integration-channels">Channels</a></li><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/deployments">Deployments</a></li><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/ui-builder">UI Builder</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Import and Export</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/import_and_export">Import and Export</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Live Agent Integrations</h3><ul class=""><li class="navListItem"><a class="navItem" href="/cogniassist-docs/docs/live-agent">Live Agent</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">GenAI</h1></header><article><div><span><p>GenAI stands for Generative Artificial Intelligence. It's a subfield of AI focused on creating new data (text, code, images, etc.) that resembles human-generated content.Large Language Models (LLMs)</p>
+<p>These are advanced AI models trained on massive datasets of text and code. LLMs
+There are different type of Large language models like:</p>
+<ol>
+<li>Azure OpenAI</li>
+<li>OpenAI</li>
+<li>Gemini</li>
+<li>Authropic</li>
+</ol>
+<p><strong><em>Azure OpenAI</em></strong>
+Azure OpenAI in the context of configuration likely refers to using Azure's cloud-based access to powerful large language models developed by OpenAI.  These models can be integrated into your AI project during the configuration stage to enhance its functionality in several ways:</p>
+<ol>
+<li>Improved Natural Language Processing (NLP)</li>
+<li>Advanced Text Generation</li>
+<li>Enhanced Decision-Making Systems
+<img src="assets\CA_1015.png" alt=""></li>
+</ol>
+<p><strong><em>OpenAI</em></strong>
+If your project utilizes a chatbot interface, elaborate on how OpenAI chatbots enhance user interaction by understanding natural language queries.
+If your project involves tasks like image recognition or content creation, explain how AI specialists from OpenAI handle these tasks efficiently.</p>
+<p><img src="assets\CA_1016.png" alt=""></p>
+<p><strong><em>Gemini</em></strong>
+Model Name: Gemini
+Vendor: Google
+Description: Advanced LLM aiding writing, planning, and learning tasks with Google's AI techniques.
+Integration: Integrated with Google Workspace and products, enhancing productivity and educational tools.
+<img src="assets\CA_1018.png" alt=""></p>
+<p><strong><em>Authropic</em></strong></p>
+<p>This website might be using Authropic because they care about:</p>
+<ol>
+<li>Safe and Responsible AI: Authropic ensures AI is used ethically, especially if the website deals with sensitive information.</li>
+<li>Open Source Collaboration: Authropic contributes to freely available AI tools, which this website might be using.
+<img src="assets\CA_1020.png" alt=""></li>
+</ol>
+<p><strong><em>Benefits of Language Models in Chatbots:</em></strong></p>
+<ol>
+<li>Improved User Experience: Users can interact with the chatbot in a way that feels natural and intuitive.</li>
+<li>Increased Efficiency:*** Chatbots can handle routine inquiries and tasks, freeing up human agents for more complex issues.</li>
+<li>24/7 Availability:Chatbots can provide customer support or answer questions 24/7, regardless of location or time zone.
+<img src="assets\CA_109.png" alt=""></li>
+</ol>
+<p><strong>Embedded Model</strong>: They act like pre-trained experts that enhance your project's capabilities beyond basic tasks. This lets your project perform specific functions and deliver a richer user experience.
+<img src="assets\CA_1012.png" alt=""></p>
+<p><strong>Open source</strong>:Open source AI provides pre-built, powerful tools like language models and embedded models. These &quot;smart tools&quot; can understand language or perform specialized tasks, giving your project a significant capability boost.
+<img src="assets\CA_1013.png" alt=""></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/cogniassist-docs/docs/settings-General"><span class="arrow-prev">← </span><span>General</span></a><a class="docs-next button" href="/cogniassist-docs/docs/integration-channels"><span>Channels</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/cogniassist-docs/" class="nav-home"><img src="/cogniassist-docs/img/fav-icon.png" alt="Cogniassist Help Center" width="66" height="58"/></a><div><h5>Docs</h5><a href="/cogniassist-docs/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/cogniassist-docs/docs/en/doc2.html">Guides (or other categories)</a><a href="/cogniassist-docs/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/cogniassist-docs/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/cogniassist-docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2024 Cogniwide</section></footer></div></body></html>
